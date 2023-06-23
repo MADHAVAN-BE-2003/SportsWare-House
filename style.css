@@ -1,0 +1,1098 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+.bg-head{
+    z-index: 1;
+    position: fixed;
+    height: fit-content;
+    background-color: transparent;
+}
+.header{
+    z-index: 1;
+    margin: 2.5% 0.5%;
+    padding: 0 3%;
+    height: 60px;
+    width: 100vw;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+}
+.bg-head.scrolled{
+    background-color: rgb(0, 0, 0);
+    transition: ease-in-out 0.8s;
+}
+.logo{
+    height: 100%;
+    width: 15%;
+    margin: 0 2%;
+}
+.logo img{
+    height: 100%;
+    width: 95%;
+}
+.navi{
+    height: 100%;
+    width: 55%;
+    margin: 0 2%;
+    padding: 10px 0;
+}
+.navi .nav-underline{
+    --bs-nav-underline-gap: 6% !important;
+}
+.navi .nav-link{
+    font-size: 80% !important;
+}
+.navi .nav-underline .nav-link.active{
+    color: #fff !important;
+    border-bottom-color: #e4651e !important;
+}
+.navi .nav{
+    white-space: nowrap;
+    height: fit-content;
+    width: auto;
+    --bs-nav-link-padding-x: 0 !important;
+    --bs-nav-link-padding-y: 0 !important;
+    --bs-nav-link-color: #cacaca !important;
+    --bs-nav-link-hover-color: #e4651e !important;
+}
+.navi .nav li{
+    display: inline-block;
+    text-align: right;
+    padding: 1.2%;
+}
+a{
+    font-family: 'Moki', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    font-size: 50%;
+}
+.order{
+    height: 100%;
+    width: 10%;
+}
+.order a{
+    display: block;
+    font-size: 0.75em;
+    text-decoration: none;
+    color: #fff !important;
+    border: 2.5px #d26127 solid;
+    border-radius: 3px;
+    padding: 5% 22%;
+    margin: 8% 0;
+}
+.search{
+    width: 5%;
+    height: 100%;
+}
+.search img{
+    height: 28%;
+    width: 28%;
+    margin: 30% 38%;
+}
+.shop{
+    display: inline;
+    width: 3%;
+    margin: 0.5% 0;
+}
+.shop img{
+    display: inline;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+.sec-1{
+    z-index: 2;
+}
+.img-btn-1{
+    height: 7%;
+    left: 41%;
+    top: 67%;
+    padding: 1.2% 1.7% 1.2% 3.5%;
+    letter-spacing: 8px;
+    font-weight: bolder;
+    transform: skew(-14deg);
+    border: #e4651e solid 3px;
+    background-color: #e4651e;
+    text-shadow: 2px 2px 3px #313332;
+    box-shadow: 1px 1px 8px #000;
+    color: #fff;
+}
+.img-btn-1:hover{
+    background-color: transparent;
+    color: #fff;
+    text-shadow: 2px 2px 3px #313332;
+}
+.sec-1 .carousel-item img{
+    position: relative;
+}
+.sec-1 .carousel-item button{
+    position: absolute;
+}
+.sec-2{
+    height: 33.5vh;
+}
+.org-con-1{
+    position: absolute;
+    width: 100%;
+    height: 33.5%;
+    background-color: #e4651e;
+}
+.org-con-1 .card-1{
+    position: relative;
+    background-image: url("https://res.cloudinary.com/du6vmyvdh/image/upload/v1683373658/bdriven/image5_iw9hvv.png");
+    display: flex;
+    width: 73%;
+    height: 95%;
+    top: -38%;
+    left: 14%;
+    transform: skew(-14deg);
+}
+
+.org-con-1 .card-2{
+    position: relative;
+    background-color: #fff;
+    display: flex;
+    width: 74%;
+
+}
+.org-con-1 .card-2 img{
+    position: relative;
+    top: -54%;
+    left: -8%;
+    height: 185%;
+    transform: skew(14deg);
+}
+.org-con-1 .card-2 .para-1{
+    position: relative;
+    left: -17%;
+    margin: 7.5% 0 0 0;
+    color: #e4651e;
+    font-weight: 700;
+    letter-spacing: 4.9px;
+    font-size: 80%;
+    transform: skew(14deg);
+}
+.org-con-1 .card-2 h5{
+    position: relative;
+    font-size: 150%;
+    font-style: italic;
+    font-weight: bold;
+    width: 70%;
+    top: 3.5%;
+    left: 3%;
+    transform: scale(1.55, 1) skew(3deg);
+}
+.org-con-1 .card-2 h1{
+    position: relative;
+    font-size: 570%;
+    display: block;
+    height: 30%;
+    width: 50%;
+    margin: 0;
+    line-height: 60%;
+    font-style: italic;
+    font-weight: bold;
+    top: 2%;
+    left: 4%;
+    letter-spacing: -6px;
+    transform: scale(1.85, 1) skew(10deg);
+}
+.org-con-1 .card-2 .para-2{
+    color: #e4651e;
+    position: relative;
+    font-size: 90%;
+    display: block;
+    font-weight: bold;
+    top: 10%;
+    left: 25%;
+    transform: scale(1.75, 1) skew(10deg);
+}
+.org-con-1 .card-2 .para-2 span{
+    font-weight: 300;
+    color: #cacaca;
+}
+.card-1 .btn-card{
+    width: 26%;
+}
+.card-1 .btn-card button{
+    height: 26%;
+    width: 93%;
+    font-size: 90%;
+    letter-spacing: 8px;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px #000;
+    margin: 30% 0 20% 0;
+    color: #fff;
+    border: #e4651e 2px solid;
+    background-color: transparent;
+}
+.card-1 .btn-card button:hover{
+    background-color: #e4651e;
+}
+.card-1 .btn-card p{
+    font-size: 70%;
+    margin: 0 35%;
+    color: #e4651e;
+    transform: scale(1.55, 1);
+}
+.nav2{
+    display: block;
+    position: absolute;
+    top: 76%;
+    left: 16%;
+    width: 70%;
+    font-size: 92%;
+    transform: scale(1.3, 1);
+}
+.nav2 .nav-underline{
+    --bs-nav-underline-gap: 3px;
+}
+.nav2 .nav-link{
+    color: #000 !important;
+    font-weight: bold;
+    border-bottom: none !important;
+}
+.nav2 .nav-link:hover{
+    color: #fff !important;
+}
+.nav2 ul li a::after{
+    content: "|";
+    color: #fff;
+    margin: 0 5px;
+}
+.nav2 ul li:last-child a::after{
+    content: "";
+}
+.main-sec{
+    height: 720vh;
+}
+.main-sec .bg-con{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://res.cloudinary.com/du6vmyvdh/image/upload/v1683373693/bdriven/image6_il2zse.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
+}
+.main-sec .bg-con .div-1{
+    position: relative;
+    height: 18%;
+}
+.main-sec .bg-con .div-1 h2{
+    position: relative;
+    width: max-content;
+    font-size: 140%;
+    top: 52px;
+    font-weight: 300;
+    color: #818181;
+    transform: scale(1.4,1);
+}
+.main-sec .bg-con .div-1 h1{
+    position: relative;
+    width: max-content;
+    text-align: center;
+    top: 43px;
+    transform: scale(1.5,1);
+}
+.main-sec .bg-con .div-1 h1 span{
+    color: #ff5607;
+}
+.main-sec .bg-con .div-1 .con{
+    position: relative;
+    top: 23.5%;
+    left: 45.5%;
+    width: 40%;
+}
+.main-sec .bg-con .div-1 .con h4{
+    position: relative;
+    width: max-content;
+    top: 7px;
+    left: 9%;
+    font-size: 100%;
+    color: #ff5607;
+    font-weight: 500;
+    transform: scale(1.5,1) skew(-13deg);
+}
+.main-sec .bg-con .div-1 .con h3{
+    position: relative;
+    width: max-content;
+    top: -1px;
+    left: 16%;
+    font-size: 1.8em;
+    color: #000;
+    font-weight: 600;
+    transform: scale(1.58,1);
+}
+.main-sec .bg-con .div-1 .con h3 sup{
+    font-size: .25em;
+    top: -2.5em;
+}
+.main-sec .bg-con .div-1 .con p{
+    position: relative;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 10px;
+    top: 31px;
+    left: 18%;
+    width: 57%;
+    line-height: 17px;
+    color: #5d5d5d;
+    transform: scale(1.6,1);
+}
+.main-sec .bg-con .div-1 .con h6{
+    position: relative;
+    font-style: italic;
+    width: max-content;
+    font-weight: 700;
+    font-size: 13px;
+    top: 32px;
+    left: 7%;
+    transform: scale(1.6,1);
+}
+.main-sec .bg-con .div-1 .con ul{
+    position: relative;
+    font-style: italic;
+    font-weight: 500;
+    top: 32px;
+    left: 11%;
+    line-height: 20px;
+    font-size: 12px;
+    transform: scale(1.3,1);
+}
+.main-sec .bg-con .div-1 .con .btn-con{
+    display: flex;
+    position: relative;
+    top: 42px;
+    left: 5.5%;
+    gap: 8px;
+}
+.btn{
+    text-align: center;
+    font-family: Moki, sans-serif;
+    color: #000000;
+    margin: 0;
+    height: 50px;
+    width: 245px;
+    transform: skew(-40deg);
+}
+.btn button{
+    height: 50px;
+    width: 242px;
+    background-color: transparent;
+    transition: translate transform 0.5s ease-in-out;
+}
+.btn-txt{
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: 700;
+    transform: skew(25deg) scale(1.6,1);
+}
+.btn-1 button:hover{
+    transform: scale(1.19,1.2);
+    color: #fff;
+    background-color: #ff6d18;
+    border: #ff6d18 1px solid !important;
+    translate: -22px 5px 0;
+}
+.main-sec .bg-con .div-1 .con .btn-con .btn-2 button:hover{
+    transform: scale(1.19,1.2);
+    color: #fff;
+    background-color: #ff6d18;
+    border: #ff6d18 1px solid;
+    translate: 22px 5px 0;
+}
+.div-2{
+    position: relative;
+    height: 16%;
+}
+.bg-con .div-2 h3{
+    position: relative;
+    left: 33.5%;
+    top: 6.8%;
+    width: max-content;
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: 100;
+    color: #e96419;
+    transform: skew(-9deg) scale(1.5,1);
+}
+.bg-con .div-2 h1{
+    position: relative;
+    font-style: italic;
+    width: max-content;
+    left: 36%;
+    top: 5.5%;
+    font-size: 2.7em;
+    color: #fff;
+    transform: scale(1.6,1);
+}
+.bg-con .div-2 h1 sup{
+    font-size: 0.2em;
+    line-height: 10px;
+    top: -3em;
+    left: 2px;
+}
+.org-text{
+    color: #fa623d;
+}
+.wht-text{
+    color: #fff;
+}
+.gry-text{
+    color: #7e8490;
+}
+.div-2 .--1{
+    position: relative;
+    top: 22%;
+    left: 18.5%;
+    width: max-content;
+    font-style: italic;
+    font-weight: 500;
+    transform: scale(1.55,1);
+}
+.div-2 .--2{
+    position: relative;
+    top: 19.8%;
+    left: 23.8%;
+    width: max-content;
+    font-style: italic;
+    font-weight: 500;
+    transform: scale(1.55,1);
+}
+.div-2 .--3{
+    position: relative;
+    top: 26.2%;
+    left: 16%;
+    width: max-content;
+    font-style: italic;
+    font-weight: 500;
+    transform: scale(1.55,1);
+}
+.div-2 .--4{
+    position: relative;
+    top: 23.7%;
+    left: 20.7%;
+    width: max-content;
+    font-style: italic;
+    font-weight: 500;
+    transform: scale(1.55,1);
+}
+.div-2 .--5{
+    position: relative;
+    top: 31.7%;
+    left: 20%;
+    width: max-content;
+    font-style: italic;
+    font-weight: 500;
+    transform: scale(1.55,1);
+}
+.div-2 .--6{
+    position: relative;
+    top: 29.5%;
+    left: 28%;
+    width: max-content;
+    font-style: italic;
+    font-weight: 500;
+    transform: scale(1.55,1);
+}
+.div-2 .--7{
+    position: relative;
+    top: 33.5%;
+    left: 24.5%;
+    width: max-content;
+    font-style: italic;
+    font-weight: 500;
+    transform: scale(1.55,1);
+}
+.div-2 .--9{
+    position: relative;
+    top: -9%;
+    left: 70%;
+    font-size: 0.67em;
+    width: 20%;
+    font-weight: 500;
+    line-height: 15px;
+    transform: scale(1.6,1);
+}
+.div-2 .--10{
+    position: relative;
+    top: -9.5%;
+    left: 68%;
+    font-size: 0.67em;
+    width: 20%;
+    font-weight: 500;
+    line-height: 29px;
+    transform: scale(1.6,1);
+}
+.div-2 .--10 span{
+    display: block;
+    transform: skew(6deg);
+}
+.div-2 .--10 .--1{
+    position: relative;
+    top: 20%;
+    left: 10%;
+    font-size: 1.1em;
+}
+.div-2 .--10 .--2{
+    position: relative;
+    top: 20%;
+    left: 11%;
+    font-size: 1.1em;
+}
+.div-2 .--10 .--3{
+    position: relative;
+    top: 20%;
+    left: 10%;
+    font-size: 1.1em;
+}
+.div-2 .--10 .--4{
+    position: relative;
+    top: 20%;
+    left: 8.5%;
+    font-size: 1.1em;
+}
+.div-2 .--8{
+    position: relative;
+    top: -12%;
+    left: 68%;
+    font-size: 0.8em;
+    width: 20%;
+    font-weight: 500;
+    line-height: 15px;
+    transform: scale(1.6,1);
+}
+.div-2 .btn{
+    position: relative;
+    top: -7%;
+    left: 65%;
+}
+.div-2 .btn button{
+    color: #fff;
+    border: #fff solid 1px;
+}
+.div-3{
+    position: relative;
+    height: 13%;
+}
+.div-3 h1{
+    position: relative;
+    top: 5.5%;
+    left: 36.8%;
+    width: max-content;
+    font-size: 3.5em;
+    transform: scale(1.4,1);
+}
+.div-3 h1 span{
+    color: #ff5607;
+}
+.div-3>.--1,.--3,.--5,.--7{
+    width: max-content;
+    font-weight: 100;
+}
+.div-3 .--2,.--4,.--6,.--8{
+    width: max-content;
+    font-weight: 500;
+    font-style: italic;
+    letter-spacing: -1px;
+}
+.div-3 .--1{
+    position: relative;
+    top: 60%;
+    left: 20%;
+}
+.div-3 .--2{
+    position: relative;
+    top: 57.5%;
+    left: 20.5%;
+    transform: scale(1.3,1);
+}
+.div-3 .--3{
+    position: relative;
+    top: 48%;
+    left: 38%;
+}
+.div-3 .--4{
+    position: relative;
+    top: 45.5%;
+    left: 38.5%;
+    transform: scale(1.3,1);
+}
+.div-3 .--5{
+    position: relative;
+    top: 36%;
+    left: 55%;
+}
+.div-3 .--6{
+    position: relative;
+    top: 33.5%;
+    left: 56%;
+    transform: scale(1.3,1);
+}
+.div-3 .--7{
+    position: relative;
+    top: 24%;
+    left: 72.5%;
+}
+.div-3 .--8{
+    position: relative;
+    top: 21.5%;
+    left: 73.5%;
+    transform: scale(1.3,1);
+}
+.div-4{
+    position: relative;
+    height: 14%;
+}
+.div-4 h1{
+    position: relative;
+    top: 10%;
+    left: 24%;
+    width: max-content;
+    font-weight: 700;
+    transform: scale(1.5,1);
+}
+.div-4 h1 span{
+    color: #ff5607;
+}
+.div-4 h3{
+    position: relative;
+    top: 9%;
+    left: 28%;
+    font-weight: 200;
+    font-size: 1.3em;
+    width: max-content;
+    transform: scale(1.4,1);
+}
+.div-4 h2{
+    position: relative;
+    top: 19.5%;
+    left: 17%;
+    line-height: 70px;
+    font-size: 1.52em;
+    width: max-content;
+    font-style: italic;
+    text-align: left;
+    transform: scale(1.44,1);
+}
+.div-4 .text2{
+    position: relative;
+    left: 15.3%;
+}
+.div-4 .text3{
+    position: relative;
+    left: 16%;
+}
+.div-4 .text4{
+    position: relative;
+    top: 20.5%;
+    left: 15.7%;
+}
+.div-4>p{
+    position: relative;
+    top: 15.4%;
+    left: 16%;
+    font-size: 0.7em;
+    width: max-content;
+    font-style: italic;
+    text-align: left;
+    transform: scale(1.44,1);
+}
+.div-4 .text22{
+    position: relative;
+    left: 15%;
+}
+.div-4 .text23{
+    position: relative;
+    left: 14.5%;
+}
+.div-4 .con{
+    position: relative;
+    top: -66%;
+    left: 54%;
+    height: 85%;
+    width: 44%;
+    text-align: center;
+}
+.div-4 .con h1{
+    position: relative;
+    top: 8%;
+    left: 30.5%;
+    width: max-content;
+    transform: scale(1.45,1);
+}
+.div-4 .con h4{
+    position: relative;
+    top: 7%;
+    left: 39%;
+    font-size: 1em;
+    width: max-content;
+    font-weight: 300;
+    transform: scale(1.7,1);
+}
+.div-4 .con h4 span{
+    font-weight: 600;
+}
+.div-4 .con p{
+    position: relative;
+    top: 21%;
+    left: 8%;
+    width: 82%;
+    font-size: 0.8em;
+    line-height: 19.8px;
+    transform: scale(1.35,1);
+}
+.div-4 .con .btn2{
+    position: relative;
+    top: 28%;
+    left: 33.5%;
+}
+.div-4 .con .btn2{
+    text-align: center;
+    font-family: Moki, sans-serif;
+    color: #ffffff;
+    margin: 0;
+    height: 50px;
+    width: 245px;
+    transform: skew(-8deg);
+}
+.div-4 .con .btn2 button{
+    color: #fff;
+    border: #fff 2px solid;
+    height: 50px;
+    width: 242px;
+    background-color: transparent;
+    transition: translate transform 0.5s ease-in-out;
+}
+.div-4 .con .btn-txt{
+    font-style: italic;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: 700;
+    transform: skew(8deg) scale(1.6,1);
+}
+.div-4 .con .btn2 button:hover{
+    transform: scale(1.19,1.2);
+    color: #ff5607;
+    background-color: #ffffff;
+    border: #ffffff 1px solid !important;
+    box-shadow: 1px 1px 10px #000;
+    translate: -10px 2px 0;
+}
+.div-5{
+    position: relative;
+    height: 14%;
+}
+.div-5 h2{
+    position: relative;
+    top: 20%;
+    left: 16%;
+    width: max-content;
+    transform: scale(1.2,0.8);
+}
+.div-5 blockquote{
+    position: relative;
+    top: 42%;
+    left: 21%;
+    text-align: center;
+    line-height: 28px;
+    width: max-content;
+    transform: scale(1.2,1);
+}
+.div-5 p{
+    position: relative;
+    top: 53%;
+    left: 48%;
+    font-size: 2.2em;
+    font-weight: 700;
+    width: max-content;
+    transform: scale(1.2,1);
+}
+.div-6{
+    position: relative;
+    height: 12%;
+}
+.div-6 h1{
+    position: relative;
+    top: 10.5%;
+    left: 33%;
+    font-size: 3.1em;
+    width: max-content;
+    font-style: italic;
+    transform: scale(1.65,1);
+}
+.div-6 h1 sup{
+    position: relative;
+    top: -2.8em;
+    left: 1em;
+    font-size: 0.2em;
+}
+.div-6 h5{
+    position: relative;
+    top: 9%;
+    left: 34%;
+    width: max-content;
+    transform: scale(1.45,0.9);
+}
+.div-6 .btn-3{
+    position: relative;
+    top: 51%;
+    left: 43%;
+}
+.div-6 .btn-3{
+    text-align: center;
+    font-family: Moki, sans-serif;
+    color: #ffffff;
+    margin: 0;
+    height: 50px;
+    width: 245px;
+    transform: skew(-8deg);
+}
+.div-6 .btn-3 button{
+    color: #fff;
+    border: #fff 2px solid;
+    height: 50px;
+    width: 242px;
+    background-color: transparent;
+    transition: translate transform 0.5s ease-in-out;
+}
+.div-6 .btn-txt{
+    font-style: italic;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: 700;
+    transform: skew(8deg) scale(1.6,1);
+}
+.div-6 .btn-3 button:hover{
+    transform: scale(1.19,1.2);
+    color: #ff5607;
+    background-color: #ffffff;
+    border: #ffffff 1px solid !important;
+    box-shadow: 1px 1px 10px #000;
+    translate: -12px 2px 0;
+}
+.div-7{
+    position: relative;
+    height: 7%;
+    text-align: center;
+}
+.div-7 center{
+    position: relative;
+    top: 35%;
+}
+.div-7 center h2{
+    position: relative;
+    font-weight: 700;
+    width: max-content;
+    transform: scale(1.4,1);
+}
+.div-7 center h1{
+    position: relative;
+    top: -6px;
+    font-weight: 700;
+    font-style: italic;
+    width: max-content;
+    transform: scale(1.5,1);
+}
+.div-7 center h1 .hash{
+    display: inline-block;
+    transform: skew(-12deg);
+}
+.vip-sec{
+    background-color: #383737;
+    background-image: url("https://res.cloudinary.com/du6vmyvdh/image/upload/v1683373661/bdriven/image7_y3gdae.png");
+    background-size: cover;
+    background-blend-mode: multiply;
+    height: 75vh;
+    text-align: center;
+}
+.vip-sec center{
+    position: relative;
+    top: 32%;
+    height: 40%;
+}
+.vip-sec center label{
+    position: relative;
+    top: 25%;
+    width: 50%;
+    transform: skew(-8deg);
+}
+.vip-sec center label input[type="email"]{
+    position: relative;
+    left: -20px;
+    border: none;
+    width: 833.5px;
+    height: 77px;
+    padding: 0 31px;
+    font-size: 1.05em;
+}
+.vip-sec center label input::placeholder{
+    position: relative;
+    left: 30%;
+    font-weight: 600;
+    transform: scale(1.6,1);
+}
+.vip-sec center label button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ff5a22;
+    color: white;
+    padding: 0 70px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    transform: scale(1.5,1);
+}
+.vip-sec center label button:hover{
+    transition: .2s;
+    background-color: #a93d19;
+}
+.vip-sec h2{
+    position: relative;
+    width: max-content;
+    transform: scale(1.7,1);
+}
+.vip-sec h5{
+    position: relative;
+    width: max-content;
+    top: -2%;
+    font-weight: 300;
+    transform: scale(1.4,1);
+}
+.vip-sec h5 span{
+    position: relative;
+    top: 10%;
+    font-weight: 700;
+}
+.info-sec{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    width: min-content;
+    margin: 0;
+    height: 50vh;
+    width: 100%;
+}
+.sec-21{
+    width: 18%;
+    padding: 50px 27px 28px 60px;
+    transform: scale(1.2,1);
+}
+.sec-22{
+    width: 28%;
+    padding: 50px 27px 28px 66px;
+    transform: scale(1.2,1);
+}
+.sec-23{
+    width: 30%;
+    padding: 50px 27px 28px 61px;
+    transform: scale(1.2,1);
+}
+.sec-24{
+    width: 21%;
+    padding: 50px 5px 28px 48px;
+    transform: scale(1.2,1);
+}
+.info-sec>div>h6, ul{
+    width: max-content;
+}
+.info-sec>div>ul{
+    color: #b7b5b6;
+}
+.sec-21>ul{
+    padding: 11px 26px;
+    line-height: 25.5px;
+    font-weight: 600;
+    transform: scale(1.3,1);
+}
+.sec-21>ul>li>a{
+    color: #b7b5b6;
+    text-decoration: none;
+    font-size: 0.7em;
+}
+.sec-22>ul{
+    padding: 12px 26px;
+    font-size: 0.8em;
+    line-height: 28.5px;
+    font-weight: 600;
+    transform: scale(1.25,1);
+    list-style-type: none;
+}
+.sec-23>ul{
+    padding: 11px 46px;
+    line-height: 25.5px;
+    font-weight: 600;
+    transform: scale(1.3,1);
+}
+.sec-23>ul>li>a{
+    color: #b7b5b6;
+    text-decoration: none;
+    font-size: 0.7em;
+}
+.sec-24>p{
+    color: #b7b5b6;
+    padding: 13px 0 0 23px;
+    line-height: 28px;
+    font-weight: 600;
+    font-size: 0.7em;
+    width: max-content;
+    transform: scale(1.3,1);
+}
+.sec-24>div{
+    position: relative;
+    top: 6%;
+}
+.sec-24>div>p{
+    font-size: 0.9em;
+    color: #b7b5b6;
+}
+.sec-24>div>label{
+    position: relative;
+    top: -2px;
+    left: 12px;
+    width: 50%;
+    transform: skew(-11deg);
+}
+.sec-24>div>label input[type="email"]{
+    position: relative;
+    left: -20px;
+    border: 1px solid;
+    width: 236px;
+    height: 37px;
+    padding: 0 10px;
+    font-size: 0.7em;
+}
+.sec-24>div>label button{
+    position: absolute;
+    top: 0;
+    right: -82px;
+    bottom: 0;
+    background-color: #000000;
+    color: lightgray;
+    padding: 0 8px;
+    letter-spacing: 1px;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+}
+footer{
+    position: relative;
+    background-color: #e4651e;
+    color: #fff;
+    text-align: center;
+    font-weight: 200;
+    height: 10vh;
+    padding: 25px;
+}
